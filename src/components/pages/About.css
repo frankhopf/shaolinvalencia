@@ -1,0 +1,90 @@
+.about-header {
+    background-image: url('/src/images/dragon.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .about-header > h1 {
+    color: #fff;
+    font-size: 100px;
+    margin-top: -100px;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center;    /* vertically center */
+  }
+
+  .about-container > h3 {
+    color: #000;
+    font-size: 50px;
+    margin-top: -300px;
+    margin-bottom: -300px;
+    margin-right: 20%;
+  }
+  
+  .about-container > p {
+    max-width: 75%;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Noto sans', sans-serif;
+    margin-bottom: 20px;
+  }
+
+  .about-img-container {
+    height: auto;
+    width: auto;
+   }
+ 
+   .about-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20%;
+    max-width: 50%;
+    max-height: 50%;
+    position: center;
+    align-self: center;
+   }
+  
+  .about-btns {
+    margin-top: 32px;
+  }
+  
+  .about-btns .btn {
+    margin: 6px;
+  }
+  
+  .fa-play-circle {
+    margin-left: 4px;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .classes-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .classes-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .classes-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
