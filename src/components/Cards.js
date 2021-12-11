@@ -118,7 +118,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/apprentice.jpg'
+              src='images/apprentice.JPG'
               text='Formaci&oacute;n y obtenci&oacute;n de cinturones oficiales, preparaci&oacute;n para competiciones y mucho m&aacute;s'
               label='Servicios'
               path='/services'

@@ -110,10 +110,10 @@ export default function About() {
               <img src='images/certification3.jpg' alt='horario' className='about-img1' />
             </div>
             <div className='about-img-container'>
-              <img src='images/certification.jpg' alt='horario' className='about-img1' />
+              <img src='images/certification.JPG' alt='horario' className='about-img1' />
             </div>
             <div className='about-img-container'>
-              <img src='images/certification2.jpg' alt='horario' className='about-img1' />
+              <img src='images/certification2.JPG' alt='horario' className='about-img1' />
             </div>
       </div>
       <div className='about-container'>

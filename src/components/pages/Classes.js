@@ -36,7 +36,7 @@ export default function Classes() {
         <Container className='classes-box-container'>
           <Box className='classes-box'>
             <div className='classes-img-container'>
-              <img src='images/kungfu2.jpg' alt='horario' className='classes-img' />
+              <img src='images/kungfu2.JPG' alt='horario' className='classes-img' />
             </div>
           </Box>
         </Container>
