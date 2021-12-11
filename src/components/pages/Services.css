@@ -1,5 +1,7 @@
+/*** Header ***/
+/* Header - general */
 .services-header {
-  background-image: url('/src/images/lights.jpg');
+  background-color: #ff7f32;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -7,33 +9,31 @@
   font-size: 100px;
 }
 
+/* Header - big title */
 .services-header > h1 {
   color: #fff;
-  font-size: 100px;
-}
-
-.services-header > p {
-  margin-top: 8px;
-  color: #fff;
-  font-size: 32px;
+  font-size: 150px;
   font-family: 'Jost', sans-serif;
+  font-weight: 'extrabold';
 }
 
+/*** Body ***/
+/* Body - general (divs where body elements go) */
 .services-container {
   display: flex;
   justify-content: center; /* horizontally center */
   align-items: stretch;    /* vertically center */
-  margin-top: 60px;
-  margin-bottom: 60px;
 }
 
+/* Body - big title */
 .services-container > h1 {
   color: #000;
   font-size: 50px;
-  margin-top: -300px;
-  margin-bottom: -300px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
+/* Body - secondary title */
 .services-container > p {
   margin-bottom: 20px;
   color: #000;
@@ -42,24 +42,28 @@
   max-width: 90%;
 }
 
+/* Body - small text */
 .services-container > text {
-  margin-left: 40px;
+  margin-top: 40px;
   color: #000;
   font-size: 21px;
   font-family: 'Noto sans', sans-serif;
   max-width: 50%;
 }
 
+/* Body - horario container */
 .services-img-container-1 {
   height: auto;
   width: 900px;
- }
+  }
 
+/* Body - all other images container */
 .services-img-container {
   height: auto;
-  width: 900px;
+  width: 500px;
 }
 
+/* Body - horario */
 .services-img-1 {
   max-width: 100%;
   max-height: 100%;
@@ -67,6 +71,7 @@
   align-self: center;
 }
 
+/* Body - images */
 .services-img {
   margin-left: 20px;
   max-width: 100%;
@@ -75,81 +80,158 @@
   vertical-align: text-top;
 }
 
-.services-btns {
-  margin-top: 32px;
+/* Body - mui box container */
+.services-box-container {
+  width: 'sm';
 }
 
-.services-btns .btn {
-  margin: 6px;
+/* Body - mui box */
+.services-box {
+  margin-top: 50px;
+  margin-left: 300px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 50%;
 }
 
-.fa-play-circle {
-  margin-left: 4px;
+/* Body - mui box for text */
+.services-box-t {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+}
+
+/* Body - mui empty box */
+.services-box1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  max-width: 50%;
 }
 
 @media screen and (max-width: 960px) {
-  .services-container > h1 {
-    font-size: 70px;
-    margin-top: -150px;
-    margin-bottom: 1px;
-  }
-
-  .services-img-container-1 {
-    height: auto;
-    width: 660px;
-   }
-
-  .services-img-container {
-    height: auto;
-    width: 600px;
-   }
-
-   .services-container {
-    flex-direction: column;
-  }
-}
-
-@media screen and (max-width: 768px) {
+  /*** Body ***/
+  /* Body - general (divs where body elements go) */
   .services-container {
     flex-direction: column;
   }
 
+  /* Body - big title */
   .services-container > h1 {
-    font-size: 50px;
-    margin-top: -100px;
+    font-size: 70px;
     margin-bottom: 1px;
   }
 
+  /* Body - secondary title */
   .services-container > p {
-    margin-left: 30px;
-    font-size: 30px;
-  }
-
-  .services-container > text {
-    margin-left: 50px;
+    margin-left: 70px;
+    margin-bottom: 20px;
     color: #000;
     font-size: 21px;
     font-family: 'Noto sans', sans-serif;
-    max-width: 70%;
+    max-width: 90%;
   }
 
+  /* Body - horario container */
+  .services-img-container-1 {
+    margin-left: 130px;
+    height: auto;
+    width: 660px;
+  }
+
+  /* Body - all other images container */
+  .services-img-container {
+    height: auto;
+    width: 600px;
+  }
+
+  /* Body - mui box */
+  .services-box {
+    margin-top: 50px;
+    margin-left: 130px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 50%;
+  }
+
+  /* Body - mui box for text */
+  .services-box-t {
+    margin-top: 50px;
+    margin-left: 165px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  /*** Header ***/
+  /* Header - general */
+  .services-header > h1 {
+    font-size: 50px;
+    max-width: 100%;
+  }
+  
+  /*** Body ***/
+  /* Body - general (divs where body elements go) */
+  .services-container {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* Body - big title */
+  .services-container > h1 {
+    font-size: 30px;
+    margin-bottom: 1px;
+  }
+
+  /* Body - secondary title */
+  .services-container > p {
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  
+  /* Body - horario container */
   .services-img-container-1 {
     height: auto;
-    width: 330px;
-   }
+    width: 350px;
+    margin-left: 5px;
+  }
 
+  /* Body - all other images container */
   .services-img-container {
     height: auto;
     width: 300px;
-   }
-   
-
-  .btn-mobile {
-    display: block;
-    text-decoration: none;
+    margin-left: 0px;
   }
 
-  .btn {
-    width: 100%;
+  /* Body - mui box */
+  .services-box {
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 50%;
+  }
+
+  /* Body - mui box for text */
+  .services-box-t {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+  }
+
+  /* Body - mui empty box */
+  .services-box1 {
+    margin-bottom: 30px;
   }
 }

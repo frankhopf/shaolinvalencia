@@ -10,14 +10,14 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/temple.jpg'
+              src='images/master-temple.jpg'
               text='Conoce qui&eacute;nes somos y la historia de nuestro maestro'
               label='Nosotros'
               path='/about'
             />
             <CardItem
-              src='images/centro.jpeg'
-              text='Visita nuestro nuevo centro'
+              src='images/center.jpg'
+              text='Visita nuestro nuevo centro en pleno centro de Valencia'
               label='Clases'
               path='/classes'
             />
@@ -29,7 +29,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/forms.jpg'
+              src='images/kungfu.jpg'
               text='Entrena en nuestras clases de Kung Fu'
               label='Clases'
               path='/classes'
@@ -43,13 +43,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/incense.jpg'
+              src='images/taichi.jpg'
               text='Disfruta de nuestras clases de de Tai Chi'
               label='Clases'
               path='/classes'
             />
             <CardItem
-              src='images/chi.jpg'
+              src='images/chikung.jpg'
               text='Disfruta de nuestras clases de Chi Kung'
               label='Clases'
               path='/classes'
@@ -71,13 +71,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/chinese.jpg'
+              src='images/chinese-text.jpg'
               text='Aprende en nuestras clases de Idioma Chino'
               label='Clases'
               path='/classes'
             />
             <CardItem
-              src='images/cali.jpeg'
+              src='images/caligraphy.jpg'
               text='Sube de nivel tu chino con nuestras clases de Caligraf&iacute;a'
               label='Clases'
               path='/classes'
@@ -85,13 +85,13 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/opera.jpg'
-              text='Participa en nuestras clases de Baile y Danzas tradicionales chinas'
+              src='images/dance.png'
+              text='Participa en nuestras clases de danzas tradicionales chinas'
               label='Clases'
               path='/classes'
             />
             <CardItem
-              src='images/op.jpg'
+              src='images/opera.jpg'
               text='Aprende la tradici&oacute;n de la &oacute;pera china Sichuan'
               label='Clases'
               path='/classes'
@@ -99,7 +99,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/ceremony.jpg'
+              src='images/tea-class.jpg'
               text='Participa en nuestras clases de ceremonia del t&eacute;'
               label='Clases'
               path='/classes'
@@ -118,13 +118,13 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/belt.jpg'
-              text='Formaci&oacute;n y obtenci&oacute;n de cinturones oficiales'
+              src='images/apprentice.jpg'
+              text='Formaci&oacute;n y obtenci&oacute;n de cinturones oficiales, preparaci&oacute;n para competiciones y mucho m&aacute;s'
               label='Servicios'
               path='/services'
             />
             <CardItem
-              src='images/kick.jpg'
+              src='images/show.jpg'
               text='Exhibiciones'
               label='Servicios'
               path='/services'
@@ -133,12 +133,12 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src='images/wall.jpg'
-              text='Participa en los viajes a China y al Templo con nosotros'
+              text='Participa en los viajes a China y al Templo con la escuela'
               label='Servicios'
               path='/services'
             />
             <CardItem
-              src='images/jump.jpg'
+              src='images/act.jpg'
               text='Oferta de actor y core&oacute;grafo'
               label='Servicios'
               path='/services'
@@ -151,7 +151,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/shoes.jpg'
+              src='images/equip.jpg'
               text='Toda la equipaci&oacute;n y material que necesitas en un solo sitio'
               label='Tienda'
               path='/shop'

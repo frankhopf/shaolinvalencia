@@ -9,7 +9,6 @@ import Shop from './components/pages/Shop';
 import ScrollToTop from './components/ScrollToTop';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-
 function App() {
   return (
     <>

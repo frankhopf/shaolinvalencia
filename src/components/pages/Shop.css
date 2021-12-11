@@ -1,7 +1,12 @@
 .shop-container > h1 {
+    background-color: #ff7f32;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
+    font-size: 150px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 'extrabold';
   }
   
   .shop-container > p {

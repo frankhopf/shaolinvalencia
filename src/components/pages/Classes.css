@@ -1,39 +1,133 @@
-  .classes-header {
-    background-image: url('/src/images/tea.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
+/*** Header ***/
+/* Header - general */
+.classes-header {
+  background-color: #ff7f32;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* Header - big title */
+.classes-header > h1 {
+  color: #fff;
+  font-size: 150px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 'extrabold';
+}
+
+/*** Body ***/
+/* Body - general (divs where body elements go) */
+.classes-container {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: stretch;    /* vertically center */
+}
+
+/* Body - big title */
+.classes-container > h1 {
+  color: #000;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Body - secondary title */
+.classes-container > p {
+  margin-bottom: 20px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 90%;
+}
+
+/* Body - small text */
+.classes-container > text {
+  margin-top: 40px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 50%;
+}
+
+/* Body - horario container */
+.classes-img-container-1 {
+  height: auto;
+  width: 900px;
   }
 
-  .classes-header > h1 {
-    color: #fff;
-    font-size: 100px;
-  }
-  
-  .classes-header > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Jost', sans-serif;
-  }
+/* Body - all other images container */
+.classes-img-container {
+  height: auto;
+  width: 500px;
+}
 
+/* Body - horario */
+.classes-img-1 {
+  max-width: 100%;
+  max-height: 100%;
+  position: center;
+  align-self: center;
+}
+
+/* Body - images */
+.classes-img {
+  margin-left: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  position: center;
+  vertical-align: text-top;
+}
+
+/* Body - mui box container */
+.classes-box-container {
+  width: 'sm';
+}
+
+/* Body - mui box */
+.classes-box {
+  margin-top: 50px;
+  margin-left: 300px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 50%;
+}
+
+/* Body - mui box for text */
+.classes-box-t {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+}
+
+/* Body - mui empty box */
+.classes-box1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  /*** Body ***/
+  /* Body - general (divs where body elements go) */
   .classes-container {
-    display: flex;
-    justify-content: center; /* horizontally center */
-    align-items: stretch;    /* vertically center */
-    margin-bottom: 60px;
+    flex-direction: column;
   }
 
+  /* Body - big title */
   .classes-container > h1 {
-    color: #000;
-    font-size: 50px;
-    margin-top: -300px;
-    margin-bottom: -300px;
+    font-size: 70px;
+    margin-bottom: 1px;
   }
-  
+
+  /* Body - secondary title */
   .classes-container > p {
+    margin-left: 70px;
     margin-bottom: 20px;
     color: #000;
     font-size: 21px;
@@ -41,114 +135,103 @@
     max-width: 90%;
   }
 
-  .classes-container > text {
-    margin-left: 40px;
+  /* Body - horario container */
+  .classes-img-container-1 {
+    margin-left: 130px;
+    height: auto;
+    width: 660px;
+  }
+
+  /* Body - all other images container */
+  .classes-img-container {
+    height: auto;
+    width: 600px;
+  }
+
+  /* Body - mui box */
+  .classes-box {
+    margin-top: 50px;
+    margin-left: 130px;
     color: #000;
     font-size: 21px;
     font-family: 'Noto sans', sans-serif;
     max-width: 50%;
   }
 
+  /* Body - mui box for text */
+  .classes-box-t {
+    margin-top: 50px;
+    margin-left: 165px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  /*** Header ***/
+  /* Header - general */
+  .classes-header > h1 {
+    font-size: 50px;
+    max-width: 100%;
+  }
+  
+  /*** Body ***/
+  /* Body - general (divs where body elements go) */
+  .classes-container {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* Body - big title */
+  .classes-container > h1 {
+    font-size: 30px;
+    margin-bottom: 1px;
+  }
+
+  /* Body - secondary title */
+  .classes-container > p {
+    margin-left: 30px;
+    font-size: 17px;
+  }
+  
+  /* Body - horario container */
   .classes-img-container-1 {
     height: auto;
-    width: 900px;
-   }
+    width: 350px;
+    margin-left: 5px;
+  }
 
+  /* Body - all other images container */
   .classes-img-container {
     height: auto;
-    width: 900px;
+    width: 300px;
+    margin-left: 0px;
   }
 
-  .classes-img-1 {
-    max-width: 100%;
-    max-height: 100%;
-    position: center;
-    align-self: center;
+  /* Body - mui box */
+  .classes-box {
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 50%;
   }
 
-  .classes-img {
-    margin-left: 20px;
-    max-width: 100%;
-    max-height: 100%;
-    position: center;
-    vertical-align: text-top;
+  /* Body - mui box for text */
+  .classes-box-t {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
   }
-  
-  .classes-btns {
-    margin-top: 32px;
+
+  /* Body - mui empty box */
+  .classes-box1 {
+    margin-bottom: 30px;
   }
-  
-  .classes-btns .btn {
-    margin: 6px;
-  }
-  
-  .fa-play-circle {
-    margin-left: 4px;
-  }
-  
-  @media screen and (max-width: 960px) {
-    .classes-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-      margin-bottom: 1px;
-    }
-
-    .classes-img-container-1 {
-      height: auto;
-      width: 660px;
-     }
-
-    .classes-img-container {
-      height: auto;
-      width: 600px;
-     }
-
-     .classes-container {
-      flex-direction: column;
-    }
-  }
-  
-  @media screen and (max-width: 768px) {
-    .classes-container {
-      flex-direction: column;
-    }
-
-    .classes-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-      margin-bottom: 1px;
-    }
-  
-    .classes-container > p {
-      margin-left: 30px;
-      font-size: 30px;
-    }
-
-    .classes-container > text {
-      margin-left: 50px;
-      color: #000;
-      font-size: 21px;
-      font-family: 'Noto sans', sans-serif;
-      max-width: 70%;
-    }
-
-    .classes-img-container-1 {
-      height: auto;
-      width: 330px;
-     }
-
-    .classes-img-container {
-      height: auto;
-      width: 300px;
-     }
-     
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
-  }
+}

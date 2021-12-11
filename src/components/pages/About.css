@@ -1,90 +1,158 @@
+/*** Header ***/
+/* Header - general */
 .about-header {
-    background-image: url('/src/images/dragon.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 100px;
-  }
+  background-color: #ff7f32;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
 
+/* Header - big title */
+.about-header > h1 {
+  color: #fff;
+  font-size: 150px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 'extrabold';
+}
+
+/*** Body ***/
+/* Body - general (divs where body elements go) */
+.about-container {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center;    /* vertically center */
+}
+
+/* Body - big title */
+.about-container > h3 {
+  color: #000;
+  font-size: 50px;
+  margin-left: 10%;
+  margin-right: 20%;
+  font-family: 'Jost', sans-serif;
+  font-weight: 'extrabold';
+}
+
+/* Body - images container */
+.about-img-container {
+  height: auto;
+  width: auto;
+  margin-top: 50px;
+}
+
+/* Body - image */
+.about-img {
+  margin-left: 20%;
+  max-height: 600px;
+  position: center;
+  align-self: center;
+}
+
+/* Body - certification images */
+.about-img1 {
+  max-height: 600px;
+  position: center;
+  align-self: center;
+}
+
+/* Body - mui box container */
+.about-box-container {
+  max-width:90%;
+}
+
+/* Body - mui box */
+.about-box {
+  margin-top: 50px;
+  margin-left: 100px;
+  color: #000;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 80%;
+}
+
+/* Body - mui box for text */
+.about-box-t {
+  margin-top: 50px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+}
+
+/* Body - mui empty box */
+.about-box1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 250px;
+  color: #000;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 80%;
+}
+
+@media screen and (max-width: 960px) {
+  /*** Header ***/
+  /* Header - general */
   .about-header > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: -100px;
+    font-size: 70px;
   }
 
-  .about-container {
-    display: flex;
-    justify-content: center; /* horizontally center */
-    align-items: center;    /* vertically center */
-  }
-
+  /* Body - big title */
   .about-container > h3 {
     color: #000;
-    font-size: 50px;
-    margin-top: -300px;
-    margin-bottom: -300px;
+    font-size: 45px;
+    margin-top: 50px;
     margin-right: 20%;
   }
-  
-  .about-container > p {
-    max-width: 75%;
-    color: #000;
-    font-size: 20px;
-    font-family: 'Noto sans', sans-serif;
-    margin-bottom: 20px;
-  }
 
+  /* Body - images container */
   .about-img-container {
     height: auto;
     width: auto;
-   }
- 
-   .about-img {
     margin-top: 50px;
-    margin-bottom: 50px;
+    flex-direction: column;
+  }
+  
+  /* Body - image */
+  .about-img {
     margin-left: 20%;
-    max-width: 50%;
-    max-height: 50%;
+    max-height: 00px;
     position: center;
     align-self: center;
-   }
-  
-  .about-btns {
-    margin-top: 32px;
   }
-  
-  .about-btns .btn {
-    margin: 6px;
+
+  /* Body - certification images */
+  .about-img1 {
+    max-height: 400px;
+    position: center;
+    align-self: center;
   }
-  
-  .fa-play-circle {
-    margin-left: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  /*** Header ***/
+  /* Header - general */
+  .about-header > h1 {
+    font-size: 50px;
+    max-width: 100%;
   }
-  
-  @media screen and (max-width: 960px) {
-    .classes-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
+
+  /* Body - big title */
+  .about-container > h3 {
+    color: #000;
+    font-size: 45px;
+    margin-right: 15%;
   }
-  
-  @media screen and (max-width: 768px) {
-    .classes-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .classes-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
+
+  /* Body - certification images */
+  .about-img1 {
+    margin-left: -10%;
+    max-height: 150px;
+    position: center;
+    align-self: center;
   }
+
+  /* Body - mui empty box */
+  .about-box1 {
+    margin-bottom: 100px;
+  }
+}
