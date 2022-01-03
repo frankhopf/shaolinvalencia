@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import Logo from '../images/Logotipo/SVG/Horizontal-blanco.svg';
+import Logo from '../images/Logotipo/SVG/Shaolin-Horizontal-color.svg';
 import './Navbar.css';
 
 function Navbar() {

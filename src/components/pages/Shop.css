@@ -1,56 +1,237 @@
+/*** Header ***/
+/* Header - general */
+.shop-header {
+  background-color: #ff7f32;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+/* Header - big title */
+.shop-header > h1 {
+  color: #fff;
+  font-size: 150px;
+  font-family: 'Jost', sans-serif;
+  font-weight: 'extrabold';
+}
+
+/*** Body ***/
+/* Body - general (divs where body elements go) */
+.shop-container {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: stretch;    /* vertically center */
+}
+
+/* Body - big title */
 .shop-container > h1 {
-    background-color: #ff7f32;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    font-size: 150px;
-    font-family: 'Jost', sans-serif;
-    font-weight: 'extrabold';
+  color: #000;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Body - secondary title */
+.shop-container > p {
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 90%;
+  margin-top: 50px;
+}
+
+/* Body - small text */
+.shop-container > text {
+  margin-top: 40px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 50%;
+}
+
+/* Body - horario container */
+.shop-img-container-1 {
+  height: auto;
+  width: 900px;
   }
-  
+
+/* Body - all other images container */
+.shop-img-container {
+  height: auto;
+  width: 500px;
+}
+
+/* Body - horario */
+.shop-img-1 {
+  max-width: 100%;
+  max-height: 100%;
+  position: center;
+  align-self: center;
+}
+
+/* Body - images */
+.shop-img {
+  margin-left: 20px;
+  max-width: 100%;
+  max-height: 100%;
+  position: center;
+  vertical-align: text-top;
+}
+
+/* Body - mui box container */
+.shop-box-container {
+  width: 'sm';
+}
+
+/* Body - mui box */
+.shop-box {
+  margin-top: 50px;
+  margin-left: 300px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+  max-width: 50%;
+}
+
+/* Body - mui box for text */
+.shop-box-t {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #000;
+  font-size: 21px;
+  font-family: 'Noto sans', sans-serif;
+}
+
+/* Body - mui empty box */
+.shop-box1 {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 100px;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  /*** Body ***/
+  /* Body - general (divs where body elements go) */
+  .shop-container {
+    flex-direction: column;
+  }
+
+  /* Body - big title */
+  .shop-container > h1 {
+    font-size: 70px;
+    margin-bottom: 1px;
+  }
+
+  /* Body - secondary title */
   .shop-container > p {
-    margin-top: 8px;
-    color: #fff;
-    font-size: 32px;
-    font-family: 'Jost', sans-serif;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 90%;
+  }
+
+  /* Body - horario container */
+  .shop-img-container-1 {
+    margin-left: 130px;
+    height: auto;
+    width: 660px;
+  }
+
+  /* Body - all other images container */
+  .shop-img-container {
+    height: auto;
+    width: 600px;
+  }
+
+  /* Body - mui box */
+  .shop-box {
+    margin-top: 50px;
+    margin-left: 130px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 50%;
+  }
+
+  /* Body - mui box for text */
+  .shop-box-t {
+    margin-top: 50px;
+    margin-left: 165px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+  /*** Header ***/
+  /* Header - general */
+  .shop-header > h1 {
+    font-size: 50px;
+    max-width: 100%;
   }
   
-  .shop-btns {
-    margin-top: 32px;
+  /*** Body ***/
+  /* Body - general (divs where body elements go) */
+  .shop-container {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* Body - big title */
+  .shop-container > h1 {
+    font-size: 30px;
+    margin-bottom: 1px;
+  }
+
+  /* Body - secondary title */
+  .shop-container > p {
+    margin-left: 30px;
+    font-size: 17px;
   }
   
-  .shop-btns .btn {
-    margin: 6px;
+  /* Body - horario container */
+  .shop-img-container-1 {
+    height: auto;
+    width: 350px;
+    margin-left: 5px;
   }
-  
-  .fa-play-circle {
-    margin-left: 4px;
+
+  /* Body - all other images container */
+  .shop-img-container {
+    height: auto;
+    width: 300px;
+    margin-left: 0px;
   }
-  
-  @media screen and (max-width: 960px) {
-    .shop-container > h1 {
-      font-size: 70px;
-      margin-top: -150px;
-    }
+
+  /* Body - mui box */
+  .shop-box {
+    margin-top: 50px;
+    margin-left: 10px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 50%;
   }
-  
-  @media screen and (max-width: 768px) {
-    .shop-container > h1 {
-      font-size: 50px;
-      margin-top: -100px;
-    }
-  
-    .shop-container > p {
-      font-size: 30px;
-    }
-  
-    .btn-mobile {
-      display: block;
-      text-decoration: none;
-    }
-  
-    .btn {
-      width: 100%;
-    }
+
+  /* Body - mui box for text */
+  .shop-box-t {
+    margin-top: 50px;
+    margin-left: 40px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
   }
+
+  /* Body - mui empty box */
+  .shop-box1 {
+    margin-bottom: 30px;
+  }
+}

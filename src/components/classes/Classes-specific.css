@@ -1,0 +1,269 @@
+/*** Header ***/
+/* Header - general */
+.classes-spec-header {
+    background-color: #ff7f32;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+}
+
+/* Header - big title */
+.classes-spec-header > h1 {
+    color: #fff;
+    font-size: 150px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 'extrabold';
+}
+
+/*** Body ***/
+/* Body - general (divs where body elements go) */
+.classes-spec-container {
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: stretch;    /* vertically center */
+}
+
+/* Body - big title */
+.classes-spec-container > h1 {
+    color: #000;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+/* Body - small text */
+.classes-spec-container > text {
+    margin-top: 40px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+    max-width: 50%;
+}
+
+/* Body - videos container */
+.classes-spec-img-container-1 {
+    height: auto;
+    width: auto;
+}
+
+/* Body - all other images container */
+.classes-spec-img-container {
+    height: auto;
+    width: 500px;
+}
+
+/* Body - all other images container */
+.classes-spec-img-container-r {
+    height: auto;
+    width: 500px;
+    margin-left: -150px;
+}
+
+/* Body - all other images container */
+.classes-spec-img-container-l {
+    height: auto;
+    width: 500px;
+}
+
+/* Body - videos */
+.classes-spec-img-1 {
+    max-width: 100%;
+    max-height: 100%;
+    position: center;
+    align-self: center;
+}
+
+/* Body - images */
+.classes-spec-img {
+    max-width: 100%;
+    max-height: 100%;
+    position: center;
+    align-self: center;
+}
+
+/* Body - mui box */
+.classes-spec-box {
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+/* Body - mui box for text */
+.classes-spec-box-t {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #000;
+    font-size: 21px;
+    font-family: 'Noto sans', sans-serif;
+}
+
+/* Body - mui box for right video */
+.classes-spec-box-v-r {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+/* Body - mui box for left video */
+.classes-spec-box-v-l {
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+/* Body - mui empty box */
+.classes-spec-box1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    max-width: 50%;
+}
+
+.classes-spec-img-container {
+    width: 640px;
+}
+
+.classes-spec-text-container {
+    width: 70%;
+}
+
+.classes-spec-video-container {
+    width: 640px;
+}
+
+@media screen and (max-width: 1500px) {
+    /*** Body ***/
+    /* Body - general (divs where body elements go) */
+    .classes-spec-container {
+        flex-direction: column;
+    }
+
+    /* Body - big title */
+    .classes-spec-container > h1 {
+        font-size: 70px;
+        margin-bottom: 1px;
+    }
+
+    /* Body - secondary title */
+    .classes-spec-container > p {
+        margin-left: 70px;
+        margin-bottom: 20px;
+        color: #000;
+        font-size: 21px;
+        font-family: 'Noto sans', sans-serif;
+        max-width: 90%;
+    }
+
+    /* Body - mui box */
+    .classes-spec-box {
+        position: center;
+        margin-top: 50px;
+        margin-left: 15%;
+        max-width: 50%;
+    }
+
+    /* Body - mui box for text */
+    .classes-spec-box-t {
+        margin-top: 50px;
+        margin-left: 30%;
+        color: #000;
+        font-size: 21px;
+        font-family: 'Noto sans', sans-serif;
+    }
+
+    /* Body - mui box for right video */
+    .classes-spec-box-v-r {
+        margin-top: 50px;
+        margin-left: 15%;
+    }
+
+    /* Body - mui box for left video */
+    .classes-spec-box-v-l {
+        margin-top: 50px;
+        margin-left: 15%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 768px) {
+    /*** Header ***/
+    /* Header - general */
+    .classes-spec-header > h1 {
+        font-size: 50px;
+        max-width: 100%;
+    }
+
+    /*** Body ***/
+    /* Body - general (divs where body elements go) */
+    .classes-spec-container {
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    /* Body - big title */
+    .classes-spec-container > h1 {
+        font-size: 30px;
+        margin-bottom: 1px;
+    }
+
+    /* Body - secondary title */
+    .classes-spec-container > p {
+        margin-left: 30px;
+        font-size: 17px;
+    }
+
+    .classes-spec-img-container {
+        width: 200%;
+    }
+
+    .classes-spec-img-container-r {
+        width: 200%;
+        margin-left: 0%;
+    }
+
+    .classes-spec-img-container-l {
+        width: 200%;
+    }
+
+    .classes-spec-text-container {
+        width: 100%;
+    }
+    
+    .classes-spec-video-container {
+        width: 320px;
+    }
+
+    /* Body - mui box */
+    .classes-spec-box {
+        margin-left: 0%;
+        margin-top: 50px;
+    }
+
+    /* Body - mui box for text */
+    .classes-spec-box-t {
+        margin-top: 50px;
+        margin-left: 0%;
+        color: #000;
+        font-size: 21px;
+        font-family: 'Noto sans', sans-serif;
+    }
+
+    /* Body - mui box for right video */
+    .classes-spec-box-v-r {
+        margin-top: 50px;
+        margin-left: 0%;
+    }
+
+    /* Body - mui box for left video */
+    .classes-spec-box-v-l {
+        margin-top: 50px;
+        margin-left: 0%;
+    }
+
+    /* Body - mui empty box */
+    .classes-spec-box1 {
+        margin-bottom: 30px;
+    }
+}

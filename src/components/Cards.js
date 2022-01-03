@@ -2,6 +2,7 @@ import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
 
+
 function Cards() {
   return (
     <div className='cards'>
@@ -14,12 +15,18 @@ function Cards() {
               text='Conoce qui&eacute;nes somos y la historia de nuestro maestro'
               label='Nosotros'
               path='/about'
-            />
+            />  
             <CardItem
               src='images/center.jpg'
               text='Visita nuestro nuevo centro en pleno centro de Valencia'
               label='Clases'
               path='/classes'
+            />
+            <CardItem
+              src='images/abott.JPG'
+              text='Conoce los servicios ofertados por el maestro'
+              label='Servicios'
+              path='/services'
             />
           </ul>
         </div>
@@ -32,27 +39,27 @@ function Cards() {
               src='images/kungfu.jpg'
               text='Entrena en nuestras clases de Kung Fu'
               label='Clases'
-              path='/classes'
+              path='/kungfu'
             />
             <CardItem
               src='images/kids.jpg'
               text='Trae a tus hijos a las clases de Kung Fu infantil'
               label='Clases'
-              path='/classes'
+              path='/kungfukids'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/taichi.jpg'
-              text='Disfruta de nuestras clases de de Tai Chi'
+              src='images/taichi2.jpg'
+              text='Disfruta de nuestras clases de Tai Chi'
               label='Clases'
-              path='/classes'
+              path='/taichi'
             />
             <CardItem
               src='images/chikung.jpg'
               text='Disfruta de nuestras clases de Chi Kung'
               label='Clases'
-              path='/classes'
+              path='/chikung'
             />
           </ul>
           <ul className='cards__items'>
@@ -60,13 +67,13 @@ function Cards() {
               src='images/sanda.jpg'
               text='Entrena en nuestras clases de San Da y Qin Na'
               label='Clases'
-              path='/classes'
+              path='/sanda'
             />
             <CardItem
               src='images/meditation.jpg'
               text='Participa en nuestras clases de Meditaci&oacute;n'
               label='Clases'
-              path='/classes'
+              path='/meditation'
             />
           </ul>
           <ul className='cards__items'>
@@ -74,13 +81,13 @@ function Cards() {
               src='images/chinese-text.jpg'
               text='Aprende en nuestras clases de Idioma Chino'
               label='Clases'
-              path='/classes'
+              path='/chinese'
             />
             <CardItem
               src='images/caligraphy.jpg'
               text='Sube de nivel tu chino con nuestras clases de Caligraf&iacute;a'
               label='Clases'
-              path='/classes'
+              path='/calligraphy'
             />
           </ul>
           <ul className='cards__items'>
@@ -88,13 +95,13 @@ function Cards() {
               src='images/dance.png'
               text='Participa en nuestras clases de danzas tradicionales chinas'
               label='Clases'
-              path='/classes'
+              path='/dance'
             />
             <CardItem
               src='images/opera.jpg'
               text='Aprende la tradici&oacute;n de la &oacute;pera china Sichuan'
               label='Clases'
-              path='/classes'
+              path='/opera'
             />
           </ul>
           <ul className='cards__items'>
@@ -102,13 +109,13 @@ function Cards() {
               src='images/tea-class.jpg'
               text='Participa en nuestras clases de ceremonia del t&eacute;'
               label='Clases'
-              path='/classes'
+              path='/tea'
             />
             <CardItem
               src='images/harp.jpg'
               text='Aprende a tocar instrumentos cl&aacute;sicos chinos'
               label='Clases'
-              path='/classes'
+              path='/instrument'
             />
           </ul>
         </div>
@@ -118,16 +125,16 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/apprentice.JPG'
+              src='images/professor.jpg'
               text='Formaci&oacute;n y obtenci&oacute;n de cinturones oficiales, preparaci&oacute;n para competiciones y mucho m&aacute;s'
               label='Servicios'
-              path='/services'
+              path='/exams'
             />
             <CardItem
               src='images/show.jpg'
               text='Exhibiciones'
               label='Servicios'
-              path='/services'
+              path='/events'
             />
           </ul>
           <ul className='cards__items'>
@@ -135,13 +142,13 @@ function Cards() {
               src='images/wall.jpg'
               text='Participa en los viajes a China y al Templo con la escuela'
               label='Servicios'
-              path='/services'
+              path='/trips'
             />
             <CardItem
               src='images/act.jpg'
               text='Oferta de actor y core&oacute;grafo'
               label='Servicios'
-              path='/services'
+              path='/acting'
             />
           </ul>
         </div>

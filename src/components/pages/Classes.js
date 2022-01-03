@@ -3,6 +3,8 @@ import './Classes.css';
 import Footer from '../Footer';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 export default function Classes() {
   return (
@@ -14,7 +16,7 @@ export default function Classes() {
         <h1>Bienvenido a las clases del centro</h1>
       </div>
       <div className='classes-container'>
-        <div className='classes-img-container-1'>
+        <div className='classes-img-container-h'>
           <img src='images/horario.jpg' alt='horario' className='classes-img-1' />
         </div>
       </div>
@@ -27,6 +29,36 @@ export default function Classes() {
       <div className='classes-container'>
         <div className='classes-img-container-1'>
           <img src='images/local.jpg' alt='horario' className='classes-img' />
+        </div>
+      </div>
+      <div className='classes-container'>
+        <div className='classes-img-container-2'>
+          <img src='images/centro7.jpeg' alt='horario' className='classes-img' />
+        </div>
+        <div className='classes-img-container-2'>
+          <img src='images/centro8.jpeg' alt='horario' className='classes-img' />
+        </div>
+      </div>
+      <div className='classes-container'>
+        <div className='classes-img-container-2'>
+          <img src='images/center.jpg' alt='horario' className='classes-img' />
+        </div>
+        <div className='classes-img-container-2'>
+          <img src='images/centro2.jpeg' alt='horario' className='classes-img' />
+        </div>
+        <div className='classes-img-container-2'>
+          <img src='images/centro3.jpeg' alt='horario' className='classes-img' />
+        </div>
+        <div className='classes-img-container-2'>
+          <img src='images/centro4.jpeg' alt='horario' className='classes-img' />
+        </div>
+      </div>
+      <div className='classes-container'>
+        <div className='classes-img-container-2'>
+          <img src='images/centro5.jpeg' alt='horario' className='classes-img' />
+        </div>
+        <div className='classes-img-container-2'>
+          <img src='images/centro6.jpeg' alt='horario' className='classes-img' />
         </div>
       </div>
       <div className='classes-container'>
@@ -43,7 +75,11 @@ export default function Classes() {
         <Container className='classes-box-container'>
           <Box className='classes-box-t'>
             <div className='classes-img-container'>
-              <text>El Kung Fu es un arte marcial muy completo y variado, indicado tanto para niños como para adultos. Se caracteriza por sus movimientos explosivos, saltos y patadas, e incluye técnicas de mano vacía y técnicas con una gran variedad de armas. Con la práctica regular del Kung Fu de Shaolin se incrementa de forma importante la fuerza, flexibilidad, velocidad y equilibrio.</text>
+              <text>El Kung Fu es un arte marcial muy completo y variado, indicado tanto para niños como para adultos.</text>
+              <Stack spacing={10} direction="row">
+                <Button style={{backgroundColor: '#ff7f32'}} variant="contained" href='/kungfu'>Adultos</Button>
+                <Button style={{backgroundColor: '#ff7f32'}} variant="contained" href='/kungfukids'>Niños</Button>
+              </Stack>
             </div>
           </Box>
         </Container>
@@ -60,9 +96,11 @@ export default function Classes() {
           <Box className='classes-box-t'>
             <div className='classes-img-container'>
               <text>
-                El Tai Chi estilo Chen recibe su nombre de la familia Chen, originaria de Chenjiagou situada en la provincia de Henan. Según algunas teorías es el estilo más antiguo de Tai Chi.
-                Se caracteriza por sus posturas bajas y porque el trabajo marcial es más visible que en otros estilos, haciendo un marcado uso del “fajin” o “exteriorización de la energía”. Combina movimientos lentos y cortos con estallidos de energía y no es raro realizar las formas a gran velocidad. Además de las formas de mano vacía también utiliza armas como la espada, el palo o la alabarda.
+                El Tai Chi estilo Chen se caracteriza por sus posturas bajas y porque el trabajo marcial es más visible que en otros estilos, haciendo un marcado uso del “fajin” o “exteriorización de la energía”.
               </text>
+              <Stack spacing={10} direction="row">
+                <Button style={{backgroundColor: '#ff7f32'}} variant="contained" href='/taichi'>Saber m&aacute;s</Button>
+              </Stack>
             </div>
           </Box>
         </Container>
@@ -79,8 +117,11 @@ export default function Classes() {
           <Box className='classes-box-t'>
             <div className='classes-img-container'>
               <text>
-                El Chi kung se caracteriza por trabajar y desarrollar la energía vital o Chi. A diferencia del Taichi, el Chikung suele adoptar posiciones estáticas, sin desplazamientos. Está reconocido como tesoro cultural de China por sus efectos terapéuticos y preventivos. Reduce el estrés y la depresión. Ayuda a reducir las molestias de la lumbalgia, los dolores provocados por contracturas musculares y problemas reumáticos, alteraciones respiratorias, artrosis, artritis, osteoporosis, etc.
+                El Chi kung se caracteriza por trabajar y desarrollar la energía vital o Chi.
               </text>
+              <Stack spacing={10} direction="row">
+                <Button style={{backgroundColor: '#ff7f32'}} variant="contained" href='/chikung'>Saber m&aacute;s</Button>
+              </Stack>
             </div>
           </Box>
         </Container>
@@ -97,9 +138,12 @@ export default function Classes() {
           <Box className='classes-box-t'>
             <div className='classes-img-container'>
               <text>
-                El Sanda, conocido como boxeo chino, es un estilo contemporáneo que se caracteriza por sus técnicas de puño, pierna, proyecciones y derribos. La práctica de este estilo incrementa los reflejos de la persona. El practicante conoce la situación real de un combate con contacto, aprendiendo así a visualizar los golpes del adversario y a contraatacar.
-                El Qinna o defensa personal se caracteriza por el uso de técnicas de agarre para controlar las articulaciones del oponente en combinación con el ataque a ciertas cavidades de acupuntura.
+                El San Da, conocido como boxeo chino, es un estilo contemporáneo que se caracteriza por sus técnicas de puño, pierna, proyecciones y derribos.
+                El Qin Na o defensa personal se utiliza junto con el San Da para un estilo de combate efectivo.
               </text>
+              <Stack spacing={10} direction="row">
+                <Button style={{backgroundColor: '#ff7f32'}} variant="contained" href='/sanda'>Saber m&aacute;s</Button>
+              </Stack>
             </div>
           </Box>
         </Container>
@@ -116,8 +160,11 @@ export default function Classes() {
           <Box className='classes-box-t'>
             <div className='classes-img-container'>
               <text>
-                La Meditación es el camino para alcanzar el equilibrio entre el cuerpo y la mente a través de la concentración y una correcta respiración. Esta práctica constituye un antídoto perfecto contra el exceso de estímulos externos de la sociedad moderna y los efectos del envejecimiento, y promueve un estado de paz y armonía.
+                La Meditación es el camino para alcanzar el equilibrio entre el cuerpo y la mente a través de la concentración y una correcta respiración.
               </text>
+              <Stack spacing={10} direction="row">
+                <Button style={{backgroundColor: '#ff7f32'}} variant="contained" href='/meditation'>Saber m&aacute;s</Button>
+              </Stack>
             </div>
           </Box>
         </Container>

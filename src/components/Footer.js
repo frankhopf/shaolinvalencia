@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import Logo from '../images/Logotipo/SVG/Horizontal-blanco.svg';
+import Logo from '../images/Logotipo/SVG/Shaolin-Horizontal-blanco.svg';
 import { Link } from 'react-router-dom';
 
 

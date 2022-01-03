@@ -117,6 +117,14 @@ export default function About() {
             </div>
       </div>
       <div className='about-container'>
+            <div className='about-img-container'>
+              <img src='images/official.jpg' alt='horario' className='about-img1' />
+            </div>
+            <div className='about-img-container'>
+              <img src='images/official.jpg' alt='horario' className='about-img1' />
+            </div>
+      </div>
+      <div className='about-container'>
         <Container className='about-box-container'>
           <Box className='about-box1'>
             <div className='about-img-container'>
