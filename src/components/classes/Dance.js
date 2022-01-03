@@ -30,7 +30,7 @@ export default function Dance() {
           </Box>
         </Container>
       </div>
-      <div className='classes-spec-container'>s
+      <div className='classes-spec-container'>
         <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box'>
             <div className='classes-spec-img-container'>
