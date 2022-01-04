@@ -55,18 +55,22 @@ function ShopCards() {
               text='Palo para Kung Fu'
             />
             <CardItem
-              src='images/chain2.jpeg'
+              src='images/chain.jpeg'
               text='Cadena de nueve secciones para Kung Fu'
+            />
+            <CardItem
+              src='images/chain2.jpeg'
+              text='Dardo con cuerda para Kung Fu'
             />
             </ul>
             <ul className='cards__items'>
             <CardItem
               src='images/fan.jpeg'
-              text='Abanico para Kung Fu'
+              text='Abanico para Kung Fu y Tai Chi'
             />
             <CardItem
               src='images/sword.jpeg'
-              text='Espada para Kung Fu'
+              text='Sable para Kung Fu y Tai Chi'
             />
             </ul>
         </div>
