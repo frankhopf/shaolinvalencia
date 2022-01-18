@@ -26,7 +26,7 @@ export default function Opera() {
         <Container className='classes-spec-box-container-1'>
           <Box className='classes-spec-box-v-l'>
             <div className='classes-spec-video-container'>
-              <ReactPlayer playing='true' loop={true} volume='null' muted='true' url='videos/opera.mp4' width='100%' height='100%' />
+              <ReactPlayer playing='true'controls={true} loop={false} volume='null' muted='true' url='videos/opera.mp4' width='100%' height='100%' />
             </div>
           </Box>
         </Container>

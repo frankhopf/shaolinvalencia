@@ -33,7 +33,7 @@ export default function ChiKung() {
         <Container className='classes-spec-box-container-1'>
           <Box className='classes-spec-box-v-r'>
             <div className='classes-spec-video-container'>
-            <ReactPlayer className='classes-spec-video' playing='true' loop={true} volume='null' muted='true' url='videos/chikung.mp4' width='100%' height='100%' />
+            <ReactPlayer className='classes-spec-video' playing='true' loop={true} volume='null' muted='true' url='videos/chikung.mp4' width='100%' height='100%' controls={true} />
             </div>
           </Box>
         </Container>

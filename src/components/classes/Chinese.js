@@ -10,7 +10,7 @@ export default function Chinese() {
         <h1>CLASES</h1>
       </div>
       <div className='classes-spec-container'>
-        <h1>Kung Fu Shaolin</h1>
+        <h1>Clases de idioma Chino</h1>
       </div>
       <div className='classes-spec-container'>
         <Container className='classes-spec-box-container'>

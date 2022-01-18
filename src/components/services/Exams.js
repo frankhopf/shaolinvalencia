@@ -35,7 +35,7 @@ export default function Exams() {
         <Container className='classes-spec-box-container-1'>
           <Box className='classes-spec-box-v-l'>
             <div className='classes-spec-video-container'>
-              <ReactPlayer playing='true' loop={true} volume='null' muted='true' url='videos/competition.mp4' width='100%' height='100%' />
+              <ReactPlayer playing='true' controls={true} loop={true} volume='null' muted='true' url='videos/competition.mp4' width='100%' height='100%' />
             </div>
           </Box>
         </Container>

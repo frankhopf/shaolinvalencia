@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPlayer from 'react-player';
 import './Classes-specific.css';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
@@ -17,6 +18,15 @@ export default function Dance() {
           <Box className='classes-spec-box'>
             <div className='classes-spec-img-container'>
               <img src='images/dance.png' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container-1'>
+          <Box className='classes-spec-box-v-l'>
+            <div className='classes-spec-video-container'>
+              <ReactPlayer playing='true' loop={false} volume='null' muted='true' url='videos/dance.mp4' width='100%' height='100%' controls={true} />
             </div>
           </Box>
         </Container>
