@@ -34,7 +34,7 @@ export default class WordpressApi extends Component {
         const getOptions = this.getOptions();
 
         try {
-            const response = await fetch(this.baseUrl + '/' + id, getOptions);
+            const response = await fetch(this.baseUrl + id, getOptions);
             return await response.json();
         } catch (error) {
             console.error(error);

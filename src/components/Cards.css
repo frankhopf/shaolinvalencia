@@ -51,6 +51,13 @@
     padding-top: 67%;
     overflow: hidden;
   }
+
+.cards__item__pic-wrap__noimg {
+  position: relative;
+  width: 100%;
+  padding-top: 67%;
+  overflow: hidden;
+}
   
   .fade-img {
     animation-name: fade-img;
@@ -59,6 +66,20 @@
   
   .cards__item__pic-wrap::after {
     content: attr(data-category);
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 6px 8px;
+    max-width: calc((100%) - 60px);
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #ff7f32;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+  }
+
+  .cards__item__pic-wrap__noimg::after {
     position: absolute;
     bottom: 0;
     margin-left: 10px;
