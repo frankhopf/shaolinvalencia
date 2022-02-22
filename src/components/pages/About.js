@@ -79,7 +79,7 @@ export default function About() {
         <Container className='about-box-container'>
           <Box className='about-box-t'>
             <div className='about-img-container'>
-              <text>Shi Xinghui ha sido maestro de Kung Du y Tai Chi en la Universidad Chang Yan en Corea del sur, en la Universidad de Yakarta en Indonesia y en la Universidad de Valencia.{"\n"}
+              <text>Shi Xinghui ha sido maestro de Kung Fu y Tai Chi en la Universidad Chang Yan en Corea del sur, en la Universidad de Yakarta en Indonesia y en la Universidad de Valencia.{"\n"}
               </text>
             </div>
           </Box>

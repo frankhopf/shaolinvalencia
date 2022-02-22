@@ -24,7 +24,7 @@ export default function ChiKung() {
         <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box-t'>
             <div className='classes-spec-text-container'>
-              <text>El Chi kung se caracteriza por trabajar y desarrollar la energ&iacute;a vital o Chi. A diferencia del Taichi, el Chikung suele adoptar posiciones est&aacute;ticas, sin desplazamientos. Est&aacute; reconocido como tesoro cultural de China por sus efectos terap&eacute;uticos y preventivos. Reduce el estr&eacute;s y la depresi&oacute;n. Ayuda a reducir las molestias de la lumbalgia, los dolores provocados por contracturas musculares y problemas reum&aacute;ticos, alteraciones respiratorias, artrosis, artritis, osteoporosis, etc.</text>
+              <text>El Chi Kung se caracteriza por trabajar y desarrollar la energ&iacute;a vital o Chi. A diferencia del Tai Chi, el Chi Kung suele adoptar posiciones est&aacute;ticas, sin desplazamientos. Est&aacute; reconocido como tesoro cultural de China por sus efectos terap&eacute;uticos y preventivos. Reduce el estr&eacute;s y la depresi&oacute;n. Ayuda a reducir las molestias de la lumbalgia, los dolores provocados por contracturas musculares y problemas reum&aacute;ticos, alteraciones respiratorias, artrosis, artritis, osteoporosis, etc.</text>
             </div>
           </Box>
         </Container>

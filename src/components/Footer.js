@@ -2,18 +2,36 @@ import React from 'react';
 import './Footer.css';
 import Logo from '../images/Logotipo/SVG/Shaolin-Horizontal-blanco.svg';
 import { Link } from 'react-router-dom';
-
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 function Footer() {
   return (
     <div className='footer-container'>
       <section className='footer-subscription'>
-        <p className='footer-subscription-heading'>
+        <h2 className='footer-subscription-heading'>
           Contacta con nosotros y s&iacute;guenos en las redes
-        </p>
+        </h2>
+        <div className='footer-container'>
+          <Container className='footer-box-container'>
+            <Box className='footer-box-t'>
+              <div className='footer-img-container'>
+                <Stack spacing={10} direction="row">
+                  <Button style={{backgroundColor: '#ffffff', color:'#000000'}} variant="contained" href='/contact'>Contacto</Button>
+                </Stack>
+              </div>
+            </Box>
+          </Container>
+        </div>
       </section>
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
+          <div class='footer-link-items'>
+            <h2>Tel&eacute;fono de contacto</h2>
+            <text>699-17-06-98</text>
+          </div>
           <div class='footer-link-items'>
             <h2>Redes Sociales</h2>
             <a href='https://www.instagram.com/shaolin_valencia/?hl=en' rel='noreferrer' target='_blank'>Instagram</a>

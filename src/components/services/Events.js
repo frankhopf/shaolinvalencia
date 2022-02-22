@@ -4,7 +4,7 @@ import './Services-specific.css';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
-export default function Exams() {
+export default function Events() {
   return (
     <>
       <div className='services-spec-header'>

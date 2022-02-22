@@ -31,6 +31,7 @@
   .footer-subscription-text {
     margin-bottom: 24px;
     font-size: 20px;
+    color: #fff;
   }
   
   .footer-input {
@@ -70,6 +71,10 @@
   }
   
   .footer-link-items > h2 {
+    color: #fff;
+  }
+
+  .footer-link-items > text {
     color: #fff;
   }
   
