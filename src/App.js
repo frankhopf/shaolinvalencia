@@ -10,6 +10,7 @@ import Shop from './components/pages/Shop';
 import Contact from './components/pages/Contact';
 import Posts from './components/pages/Posts';
 import Post from './components/pages/Post';
+import News from './components/pages/News';
 // Classes
 import Calligraphy from './components/classes/Calligraphy';
 import ChiKung from './components/classes/ChiKung';
@@ -46,7 +47,7 @@ function App() {
           <Route path='/shop' component={Shop} />
           <Route path='/contact' component={Contact} />
           <Route path='/posts' component={Posts} />
-          <Route path='/post/:id' component={Post} />
+          <Route path='/news' component={News} />
         </Switch>
         <Switch>
           <Route path='/calligraphy' exact component={Calligraphy} />

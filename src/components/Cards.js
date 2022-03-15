@@ -1,6 +1,11 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import { Link } from 'react-router-dom';
+import Box from '@mui/material/Box';
+import Container from '@mui/material/Container';
+import Stack from '@mui/material/Stack';
+import Button from '@mui/material/Button';
 
 
 function Cards() {
@@ -30,6 +35,14 @@ function Cards() {
             />
           </ul>
         </div>
+      </div>
+      <h1>Mira nuestras noticias</h1>
+      <div className='cards__container'>
+        <Box className='cards__wrapper'>
+          <Stack spacing={10} direction="row">
+            <Button style={{backgroundColor: '#ff7f32', color:'#ffffff', size:'large'}} variant="contained" href='/news'>Noticias</Button>
+          </Stack>
+        </Box>
       </div>
       <h1>Participa en nuestras clases en gimnasio, al aire libre o incluso online</h1>
       <div className='cards__container'>
