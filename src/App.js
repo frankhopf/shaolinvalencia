@@ -9,7 +9,7 @@ import Services from './components/pages/Services';
 import Shop from './components/pages/Shop';
 import Contact from './components/pages/Contact';
 import Posts from './components/pages/Posts';
-import Post from './components/pages/Post';
+//import Post from './components/pages/Post';
 import News from './components/pages/News';
 // Classes
 import Calligraphy from './components/classes/Calligraphy';

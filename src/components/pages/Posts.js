@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import WordpressApi from '../../services/wordpressapi';
-import CardItem from "../CardItem";
+//import CardItem from "../CardItem";
 import PostItem from "../PostItem";
 
 function Posts() {

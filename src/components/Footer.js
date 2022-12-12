@@ -34,9 +34,9 @@ function Footer() {
           </div>
           <div class='footer-link-items'>
             <h2>Redes Sociales</h2>
-            <a href='https://www.instagram.com/shaolin_valencia/?hl=en' rel='noreferrer' target='_blank'>Instagram</a>
-            <a href='https://www.facebook.com/TemploShaolinValencia/' rel='noreferrer' target='_blank'>Facebook</a>
-            <a href='https://www.youtube.com/channel/UCSntW88wx-kYS-0D7i1L9WQ' rel='noreferrer' target='_blank'>Youtube</a>
+            <a href='https://www.instagram.com/shaolin_valencia/?hl=en' rel='"noopener noreferrer' target='_blank'>Instagram</a>
+            <a href='https://www.facebook.com/TemploShaolinValencia/' rel='"noopener noreferrer' target='_blank'>Facebook</a>
+            <a href='https://www.youtube.com/channel/UCSntW88wx-kYS-0D7i1L9WQ' rel='"noopener noreferrer' target='_blank'>Youtube</a>
           </div>
         </div>
       </div>
