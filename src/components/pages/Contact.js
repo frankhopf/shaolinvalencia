@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import emailjs from 'emailjs-com';
 import Footer from '../Footer';
 import './Contact.css';

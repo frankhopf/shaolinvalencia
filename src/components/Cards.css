@@ -7,6 +7,28 @@
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
   }
+
+  .block {
+    display: block;
+    height: auto;
+    width: 100%;
+    border: none;
+    background-color: rgb(143, 139, 144);
+    padding: 14px 28px;
+    font-size: 40px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    text-align: center;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .block:hover {
+    background-color: #ff7f32;
+    color: white;
+  }
   
   .cards__container {
     display: flex;

@@ -36,13 +36,9 @@ function Cards() {
           </ul>
         </div>
       </div>
-      <h1>Mira nuestras noticias</h1>
+      <a href='/news'><button type="button" class="block" onclick='location.href=/news'>NOTICIAS</button></a>
       <div className='cards__container'>
-        <Box className='cards__wrapper'>
-          <Stack spacing={10} direction="row">
-            <Button style={{backgroundColor: '#ff7f32', color:'#ffffff', size:'large'}} variant="contained" href='/news'>Noticias</Button>
-          </Stack>
-        </Box>
+        <Box className='cards__wrapper'></Box>
       </div>
       <h1>Participa en nuestras clases en gimnasio, al aire libre o incluso online</h1>
       <div className='cards__container'>

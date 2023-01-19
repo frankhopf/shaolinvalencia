@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import './App.css';
+
 // General pages
 import Home from './components/pages/Home';
 import About from './components/pages/About';
@@ -8,9 +9,8 @@ import Classes from './components/pages/Classes';
 import Services from './components/pages/Services';
 import Shop from './components/pages/Shop';
 import Contact from './components/pages/Contact';
-import Posts from './components/pages/Posts';
-//import Post from './components/pages/Post';
 import News from './components/pages/News';
+
 // Classes
 import Calligraphy from './components/classes/Calligraphy';
 import ChiKung from './components/classes/ChiKung';
@@ -24,11 +24,13 @@ import Opera from './components/classes/Opera';
 import SanDa from './components/classes/SanDa';
 import TaiChi from './components/classes/TaiChi';
 import Tea from './components/classes/Tea';
+
 // Services
 import Exams from './components/services/Exams';
 import Events from './components/services/Events';
 import Acting from './components/services/Acting';
 import Trips from './components/services/Trips';
+
 // Router
 import ScrollToTop from './components/ScrollToTop';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -46,7 +48,6 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/shop' component={Shop} />
           <Route path='/contact' component={Contact} />
-          <Route path='/posts' component={Posts} />
           <Route path='/news' component={News} />
         </Switch>
         <Switch>
