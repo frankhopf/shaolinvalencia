@@ -1,11 +1,7 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-//import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
-//import Container from '@mui/material/Container';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 
 
 function Cards() {
@@ -36,7 +32,7 @@ function Cards() {
           </ul>
         </div>
       </div>
-      <a href='/news'><button type="button" class="block" onclick='location.href=/news'>NOTICIAS</button></a>
+      <a href='/noticias'><button type="button" class="block" onclick='location.href=/noticias'>NOTICIAS</button></a>
       <div className='cards__container'>
         <Box className='cards__wrapper'></Box>
       </div>

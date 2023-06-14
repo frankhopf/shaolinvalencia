@@ -1,9 +1,9 @@
 import React from 'react';
-import './News.css';
+import './Noticias.css';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 
-export default function News() {
+export default function Noticias() {
   return (
     <>
       <div className='news-spec-header'>

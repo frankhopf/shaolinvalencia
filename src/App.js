@@ -3,33 +3,33 @@ import Navbar from './components/Navbar';
 import './App.css';
 
 // General pages
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Classes from './components/pages/Classes';
-import Services from './components/pages/Services';
-import Shop from './components/pages/Shop';
-import Contact from './components/pages/Contact';
-import News from './components/pages/News';
+import Home from './components/paginas/Home';
+import About from './components/paginas/About';
+import Classes from './components/paginas/Classes';
+import Services from './components/paginas/Services';
+import Shop from './components/paginas/Shop';
+import Contact from './components/paginas/Contact';
+import Noticias from './components/paginas/Noticias';
 
 // Classes
-import Calligraphy from './components/classes/Calligraphy';
-import ChiKung from './components/classes/ChiKung';
-import Chinese from './components/classes/Chinese';
-import Dance from './components/classes/Dance';
-import Instrument from './components/classes/Instrument';
-import KungFu from './components/classes/KungFu';
-import KungFuKids from './components/classes/KungFuKids';
-import Meditation from './components/classes/Meditation';
-import Opera from './components/classes/Opera';
-import SanDa from './components/classes/SanDa';
-import TaiChi from './components/classes/TaiChi';
-import Tea from './components/classes/Tea';
+import Calligraphy from './components/clases/Calligraphy';
+import ChiKung from './components/clases/ChiKung';
+import Chinese from './components/clases/Chinese';
+import Dance from './components/clases/Dance';
+import Instrument from './components/clases/Instrument';
+import KungFu from './components/clases/KungFu';
+import KungFuKids from './components/clases/KungFuKids';
+import Meditation from './components/clases/Meditation';
+import Opera from './components/clases/Opera';
+import SanDa from './components/clases/SanDa';
+import TaiChi from './components/clases/TaiChi';
+import Tea from './components/clases/Tea';
 
 // Services
-import Exams from './components/services/Exams';
-import Events from './components/services/Events';
-import Acting from './components/services/Acting';
-import Trips from './components/services/Trips';
+import Exams from './components/servicios/Exams';
+import Events from './components/servicios/Events';
+import Acting from './components/servicios/Acting';
+import Trips from './components/servicios/Trips';
 
 // Router
 import ScrollToTop from './components/ScrollToTop';
@@ -48,7 +48,7 @@ function App() {
           <Route path='/services' component={Services} />
           <Route path='/shop' component={Shop} />
           <Route path='/contact' component={Contact} />
-          <Route path='/news' component={News} />
+          <Route path='/noticias' component={Noticias} />
         </Switch>
         <Switch>
           <Route path='/calligraphy' exact component={Calligraphy} />
