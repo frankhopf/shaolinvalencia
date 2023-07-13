@@ -1,16 +1,13 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
-//import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
-//import Container from '@mui/material/Container';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 
 
 function Cards() {
   return (
     <div className='cards'>
+      <div><section id='card-scroll-point'></section></div>
       <h1>Bienvenido a la nueva escuela Shaolin Valencia</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
