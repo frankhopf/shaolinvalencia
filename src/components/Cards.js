@@ -33,7 +33,7 @@ function Cards() {
           </ul>
         </div>
       </div>
-      <a href='/news'><button type="button" class="block" onclick='location.href=/news'>NOTICIAS</button></a>
+      <a href='/noticias'><button type="button" class="block" onclick='location.href=/noticias'>NOTICIAS</button></a>
       <div className='cards__container'>
         <Box className='cards__wrapper'></Box>
       </div>
