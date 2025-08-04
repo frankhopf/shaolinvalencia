@@ -25,7 +25,7 @@ function Cards() {
               path='/classes'
             />
             <CardItem
-              src='images/abott.JPG'
+              src='images/abott.jpg'
               text='Conoce los servicios ofertados por el maestro'
               label='Servicios'
               path='/services'

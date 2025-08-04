@@ -17,7 +17,7 @@ export default function Exams() {
         <Container className='services-spec-box-container'>
           <Box className='services-spec-box'>
             <div className='services-spec-img-container'>
-              <img src='images/abott.JPG' alt='horario' className='services-spec-img' />
+              <img src='images/abott.jpg' alt='horario' className='services-spec-img' />
             </div>
           </Box>
         </Container>
