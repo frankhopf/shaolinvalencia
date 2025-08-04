@@ -12,7 +12,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h1>SHAOLIN VALENCIA</h1>
-      <p>Encontrando el equilibrio entre tu cuerpo y tu alma</p>
+      <p>Encontrando el equilibrio entre tu cuerpo y alma</p>
       <p>hallar&aacute;s el camino de una larga vida.</p>
       <br />
       <button class='button' onClick={scrollToSection}>

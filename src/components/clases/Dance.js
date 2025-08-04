@@ -83,6 +83,24 @@ export default function Dance() {
       </div>
       <div className='classes-spec-container'>
         <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container'>
+              <img src='images/dragon7.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container'>
+              <img src='images/dragon8.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box1'>
             <div className='classes-spec-img-container'>
             </div>

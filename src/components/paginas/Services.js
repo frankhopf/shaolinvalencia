@@ -56,7 +56,7 @@ export default function Services() {
       <Container className='services-box-container'>
           <Box className='services-box'>
             <div className='services-img-container'>
-              <img src='images/wall.jpg' alt='horario' className='classes-img' />
+              <img src='images/viaje5.jpeg' alt='horario' className='classes-img' />
             </div>
           </Box>
         </Container>

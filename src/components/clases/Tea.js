@@ -113,6 +113,47 @@ export default function Tea() {
       </div>
       <div className='classes-spec-container'>
         <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container-l'>
+              <img src='images/tea10.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container-r'>
+              <img src='images/tea11.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container-l'>
+              <img src='images/tea12.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container-r'>
+              <img src='images/tea13.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container'>
+              <img src='images/tea14.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box1'>
             <div className='classes-spec-img-container'>
             </div>

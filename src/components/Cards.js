@@ -48,7 +48,7 @@ function Cards() {
               path='/kungfu'
             />
             <CardItem
-              src='images/kids.jpg'
+              src='images/kids1.jpeg'
               text='Trae a tus hijos a las clases de Kung Fu infantil'
               label='Clases'
               path='/kungfukids'
@@ -145,7 +145,7 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/wall.jpg'
+              src='images/viaje5.jpeg'
               text='Participa en los viajes a China y al Templo con la escuela'
               label='Servicios'
               path='/trips'

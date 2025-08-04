@@ -10,13 +10,13 @@ export default function Trips() {
         <h1>SERVICIOS</h1>
       </div>
       <div className='services-spec-container'>
-        <h1>Viajes a China y al templo shaolin</h1>
+        <h1>Viajes a China y al templo Shaolin</h1>
       </div>
       <div className='services-spec-container'>
         <Container className='services-spec-box-container'>
           <Box className='services-spec-box'>
             <div className='services-spec-img-container'>
-              <img src='images/young2.JPG' alt='horario' className='services-spec-img' />
+              <img src='images/viaje2.jpeg' alt='horario' className='services-spec-img' />
             </div>
           </Box>
         </Container>
@@ -31,6 +31,31 @@ export default function Trips() {
           </Box>
         </Container>
       </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container-l'>
+              <img src='images/viaje1.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container-r'>
+              <img src='images/viaje4.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+              <Container className='classes-spec-box-container'>
+                <Box className='classes-spec-box'>
+                  <div className='classes-spec-img-container'>
+                    <img src='images/viaje3.jpeg' alt='horario' className='classes-spec-img' />
+                  </div>
+                </Box>
+              </Container>
+            </div>
       <div className='services-spec-container'>
         <Container className='services-spec-box-container'>
           <Box className='services-spec-box1'>

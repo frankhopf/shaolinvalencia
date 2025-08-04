@@ -17,7 +17,7 @@ export default function KungFuKids() {
         <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box'>
             <div className='classes-spec-img-container'>
-              <img src='images/kids.jpg' alt='horario' className='classes-spec-img' />
+              <img src='images/kids1.jpeg' alt='horario' className='classes-spec-img' />
             </div>
           </Box>
         </Container>
@@ -37,6 +37,15 @@ export default function KungFuKids() {
                   <li>Permite evolucionar mediante cinturones y competiciones.</li>
                 </ul>
               </text>
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container'>
+              <img src='images/kids2.jpeg' alt='horario' className='classes-spec-img' />
             </div>
           </Box>
         </Container>
