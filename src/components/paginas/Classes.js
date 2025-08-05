@@ -21,6 +21,11 @@ export default function Classes() {
         </div>
       </div>
       <div className='classes-container'>
+        <div className='classes-img-container-h'>
+          <img src='images/horario-verano.jpeg' alt='horario' className='classes-img-1' />
+        </div>
+      </div>
+      <div className='classes-container'>
         <h1>Informaci&oacute;n sobre el nuevo centro</h1>
       </div>
       <div className='classes-container'>
