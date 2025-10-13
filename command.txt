@@ -1,0 +1,8 @@
+para ejecutar proyecto:
+npm start
+
+para compilar:
+npm run build
+
+para subir a producción:
+firebase deploy

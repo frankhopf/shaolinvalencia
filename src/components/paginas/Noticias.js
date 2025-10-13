@@ -13,6 +13,22 @@ export default function Noticias() {
         <Container className='news-spec-box-container'>
           <Box className='news-spec-box'>
             <div className='news-spec-img-container-l'>
+              <img src='images/fiestaluna2025.jpeg' alt='horario' className='news-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box-t'>
+            <div className='news-spec-text-container'>
+              <h1>Fiesta de la Luna o del Medio Otoño</h1>
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='news-spec-container'>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box'>
+            <div className='news-spec-img-container-l'>
               <img src='images/nunk.jpeg' alt='horario' className='news-spec-img' />
             </div>
           </Box>
