@@ -13,14 +13,14 @@ export default function Noticias() {
         <Container className='news-spec-box-container'>
           <Box className='news-spec-box'>
             <div className='news-spec-img-container-l'>
-              <img src='images/fiestaluna2025.jpeg' alt='horario' className='news-spec-img' />
+              <img src='images/anhonuevochino2026program.jpeg' alt='horario' className='news-spec-img' />
             </div>
           </Box>
         </Container>
         <Container className='news-spec-box-container'>
           <Box className='news-spec-box-t'>
             <div className='news-spec-text-container'>
-              <h1>Fiesta de la Luna o del Medio Otoño</h1>
+              <h1>Año Nuevo Chino 2026</h1>
             </div>
           </Box>
         </Container>
@@ -29,14 +29,30 @@ export default function Noticias() {
         <Container className='news-spec-box-container'>
           <Box className='news-spec-box'>
             <div className='news-spec-img-container-l'>
-              <img src='images/nunk.jpeg' alt='horario' className='news-spec-img' />
+              <img src='images/anhonuevochino2026.jpeg' alt='horario' className='news-spec-img' />
             </div>
           </Box>
         </Container>
         <Container className='news-spec-box-container'>
           <Box className='news-spec-box-t'>
             <div className='news-spec-text-container'>
-              <h1>Curso intensivo nunchakus y la forma de Xing Yi Quan</h1>
+              <h1>Jornada de intercambio cultural y gastronómico Valencia-China</h1>
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='news-spec-container'>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box'>
+            <div className='news-spec-img-container-l'>
+              <img src='images/fiestaluna2025.jpeg' alt='horario' className='news-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box-t'>
+            <div className='news-spec-text-container'>
+              <h1>Fiesta de la Luna o del Medio Otoño</h1>
             </div>
           </Box>
         </Container>
