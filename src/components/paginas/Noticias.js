@@ -13,6 +13,79 @@ export default function Noticias() {
         <Container className='news-spec-box-container'>
           <Box className='news-spec-box'>
             <div className='news-spec-img-container-l'>
+              <img src='images/cursointensivotaichi2026.jpeg' alt='horario' className='news-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box-t'>
+            <div className='news-spec-text-container'>
+              <h1>Curso intensivo de Sable de Taichi y Kungfu</h1>
+              <p>📅 23 y 24 de Mayo del 2026</p>
+              <p>📍 Masia el Molinete</p>
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='news-spec-container'>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box'>
+            <div className='news-spec-img-container-l'>
+              <img src='images/seminariotaichichen2026.jpeg' alt='horario' className='news-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box-t'>
+            <div className='news-spec-text-container'>
+              <h1>Seminario de Tai Chi Chen por el Gran Maestro Chen Bing</h1>
+              <p><strong>Fechas:</strong> 9 al 13 de septiembre de 2026 - Valencia</p>
+
+              <p>
+                El Maestro Chen Bing, descendiente directo del creador del Tai Chi,
+                Chen Wangting (20ª generación), impartirá en el Centro Cultural
+                Shaolin Valencia un seminario extraordinario y único en España.
+              </p>
+              <br />
+              <p><strong>Programa:</strong></p>
+              <p>
+                <strong>Miércoles 9 a viernes 11 (18:40 - 21:00)</strong><br />
+                Miércoles: Chan Si Gong (movimientos básicos) y Fajing (fuerza instantánea)<br />
+                Jueves: Tui Shou (empuje de manos) y aplicaciones a la defensa personal<br />
+                Viernes: Conferencia y exhibiciones
+              </p>
+              <br />
+              <p>
+                <strong>Sábado 12 y domingo 13</strong><br />
+                9:00 - 13:00 y 15:30 - 17:30<br />
+                Curso intensivo de Xinjia Yilu
+              </p>
+              <br />
+              <p><strong>Precios:</strong></p>
+
+              <p>
+                1 sesión (martes a viernes): 45€<br />
+                3 sesiones (martes a viernes): 90€<br />
+                Fin de semana: 130€<br />
+                Seminario completo (del 9 al 13): 210€
+              </p>
+              <br />
+
+              <p><strong>Contacto:</strong></p>
+
+              <p>
+                WhatsApp: +34 699 17 06 98<br />
+                Email: shaolinvalencia@gmail.com<br />
+                Web: www.shaolinvalencia.com
+              </p>
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='news-spec-container'>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box'>
+            <div className='news-spec-img-container-l'>
               <img src='images/anhonuevochino2026program.jpeg' alt='horario' className='news-spec-img' />
             </div>
           </Box>
