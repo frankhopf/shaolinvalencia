@@ -15,11 +15,11 @@ export default function Classes() {
       <div className='classes-container'>
         <h1>Bienvenido a las clases del centro</h1>
       </div>
-      <div className='classes-container'>
+      {/* <div className='classes-container'>
         <div className='classes-img-container-h'>
           <img src='images/horario-verano-2026.jpeg' alt='horario' className='classes-img-1' />
         </div>
-      </div>
+      </div> */}
       <div className='classes-container'>
         <div className='classes-img-container-h'>
           <img src='images/horario.jpg' alt='horario' className='classes-img-1' />
