@@ -31,10 +31,19 @@ export default function TaiChi() {
         </Container>
       </div>
       <div className='classes-spec-container'>
-        <Container className='classes-spec-box-container-1'>
-          <Box className='classes-spec-box-v-l'>
-            <div className='classes-spec-video-container'>
-              <ReactPlayer playing='true' controls={true} loop={false} volume='null' muted='true' url='videos/taichi.mp4' width='100%' height='100%' />
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container'>
+              <img src='images/taichi1-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/taichi2-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/taichi3-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/taichi4-102026.jpeg' alt='horario' className='classes-spec-img' />
             </div>
           </Box>
         </Container>

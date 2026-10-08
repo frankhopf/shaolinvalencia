@@ -30,6 +30,24 @@ export default function KungFu() {
         </Container>
       </div>
       <div className='classes-spec-container'>
+        <Container className='classes-spec-box-container'>
+          <Box className='classes-spec-box'>
+            <div className='classes-spec-img-container'>
+              <img src='images/kungfu4-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/kungfu5-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/kungfu6-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/kungfu7-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+          </Box>
+        </Container>
+      </div>
+      {/* <div className='classes-spec-container'>
         <Container className='classes-spec-box-container-1'>
           <Box className='classes-spec-box-v-l'>
             <div className='classes-spec-video-container'>
@@ -44,7 +62,7 @@ export default function KungFu() {
             </div>
           </Box>
         </Container>
-      </div>
+      </div> */}
       <div className='classes-spec-container'>
         <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box1'>

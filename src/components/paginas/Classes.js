@@ -56,22 +56,28 @@ export default function Classes() {
       </div>
       <div className='classes-container'>
         <div className='classes-img-container-2'>
+          <img src='images/imagenCentro102026.jpeg' alt='horario' className='classes-img' />
+        </div>
+        <div className='classes-img-container-2'>
           <img src='images/center.jpg' alt='horario' className='classes-img' />
-        </div>
-        <div className='classes-img-container-2'>
-          <img src='images/centro2.jpeg' alt='horario' className='classes-img' />
-        </div>
-        <div className='classes-img-container-2'>
-          <img src='images/centro3.jpeg' alt='horario' className='classes-img' />
-        </div>
-        <div className='classes-img-container-2'>
-          <img src='images/centro4.jpeg' alt='horario' className='classes-img' />
         </div>
       </div>
       <div className='classes-container'>
+        
+        {/* <div className='classes-img-container-2'>
+          <img src='images/centro2.jpeg' alt='horario' className='classes-img' />
+        </div> */}
+        {/* <div className='classes-img-container-2'>
+          <img src='images/centro3.jpeg' alt='horario' className='classes-img' />
+        </div> */}
+        <div className='classes-img-container-2'>
+          <img src='images/centro4.jpeg' alt='horario' className='classes-img' />
+        </div>
         <div className='classes-img-container-2'>
           <img src='images/centro5.jpeg' alt='horario' className='classes-img' />
         </div>
+      </div>
+      <div className='classes-container'>
         <div className='classes-img-container-2'>
           <img src='images/centro6.jpeg' alt='horario' className='classes-img' />
         </div>

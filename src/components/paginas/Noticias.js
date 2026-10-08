@@ -13,6 +13,24 @@ export default function Noticias() {
         <Container className='news-spec-box-container'>
           <Box className='news-spec-box'>
             <div className='news-spec-img-container-l'>
+              <img src='images/4b45b457-1842-413a-b482-477ec9247720.jpeg' alt='horario' className='news-spec-img' />
+            </div>
+          </Box>
+        </Container>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box-t'>
+            <div className='news-spec-text-container'>
+              <h1>Curso intensivo Kungfu Shaolin <b>Forma del Borracho</b></h1>
+              <p>📅 6, 7 y 8 Noviembre - 2026</p>
+              <p>📍 Chinchilla, Albacete</p>
+            </div>
+          </Box>
+        </Container>
+      </div>
+      <div className='news-spec-container'>
+        <Container className='news-spec-box-container'>
+          <Box className='news-spec-box'>
+            <div className='news-spec-img-container-l'>
               <img src='images/cursointensivotaichi2026.jpeg' alt='horario' className='news-spec-img' />
             </div>
           </Box>
@@ -21,7 +39,7 @@ export default function Noticias() {
           <Box className='news-spec-box-t'>
             <div className='news-spec-text-container'>
               <h1>Curso intensivo de Sable de Taichi y Kungfu</h1>
-              <p>📅 23 y 24 de Mayo del 2026</p>
+              <p>📅 23 y 24 de Mayo - 2026</p>
               <p>📍 Masia el Molinete</p>
             </div>
           </Box>

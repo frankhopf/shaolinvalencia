@@ -14,13 +14,13 @@ export default function KungFuKids() {
         <h1>Kung Fu Shaolin</h1>
       </div>
       <div className='classes-spec-container'>
-        <Container className='classes-spec-box-container'>
+        {/* <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box'>
             <div className='classes-spec-img-container'>
               <img src='images/kids1.jpeg' alt='horario' className='classes-spec-img' />
             </div>
           </Box>
-        </Container>
+        </Container> */}
         <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box-t'>
             <div className='classes-spec-text-container'>
@@ -45,12 +45,21 @@ export default function KungFuKids() {
         <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box'>
             <div className='classes-spec-img-container'>
+              <img src='images/kungfu1-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/kungfu2-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
+              <img src='images/kungfu3-102026.jpeg' alt='horario' className='classes-spec-img' />
+            </div>
+            <div className='classes-spec-img-container'>
               <img src='images/kids2.jpeg' alt='horario' className='classes-spec-img' />
             </div>
           </Box>
         </Container>
       </div>
-      <div className='classes-spec-container'>
+      {/* <div className='classes-spec-container'>
         <Container className='classes-spec-box-container-1'>
           <Box className='classes-spec-box-v-l'>
             <div className='classes-spec-video-container'>
@@ -65,7 +74,7 @@ export default function KungFuKids() {
             </div>
           </Box>
         </Container>
-      </div>
+      </div> */}
       <div className='classes-spec-container'>
         <Container className='classes-spec-box-container'>
           <Box className='classes-spec-box1'>
